@@ -1,0 +1,19 @@
+[package]
+name = "redis-controller-rs"
+version = "0.1.0"
+authors = ["suzuki_masaya <suzuki_masaya@kthree.co.jp>"]
+edition = "2018"
+
+[lib]
+name = "redis_controller_rs"
+path = "src/lib.rs"
+test = true
+doctest = true
+bench = true
+doc = true
+plugin = false
+proc-macro = false
+
+
+
+[dependencies]
